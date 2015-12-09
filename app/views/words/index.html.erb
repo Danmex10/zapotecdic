@@ -1,0 +1,11 @@
+<h1>Zapotec Dictionary</h1>
+
+<hr>
+
+<h2>All Words</h2>
+
+<% @words.each do |word| %>
+	<div class="word">
+		<%= word.spelling %> -> <%= word.translation %>
+	</div>
+<% end %>

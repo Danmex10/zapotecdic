@@ -1,0 +1,6 @@
+.word {
+	border: solid 1px grey;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+}
